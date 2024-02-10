@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2116FE62B77338E003F9068 /* WereWolfGameClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2116FE52B77338E003F9068 /* WereWolfGameClientApp.swift */; };
+		C2116FE82B77338E003F9068 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2116FE72B77338E003F9068 /* ContentView.swift */; };
+		C2116FEA2B773393003F9068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2116FE92B773393003F9068 /* Assets.xcassets */; };
+		C2116FED2B773393003F9068 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2116FEC2B773393003F9068 /* Preview Assets.xcassets */; };
+		C2116FEF2B773393003F9068 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2116FEE2B773393003F9068 /* Persistence.swift */; };
+		C2116FF22B773393003F9068 /* WereWolfGameClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2116FF02B773393003F9068 /* WereWolfGameClient.xcdatamodeld */; };
+		C2116FFC2B773393003F9068 /* WereWolfGameClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2116FFB2B773393003F9068 /* WereWolfGameClientTests.swift */; };
+		C21170062B773393003F9068 /* WereWolfGameClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21170052B773393003F9068 /* WereWolfGameClientUITests.swift */; };
+		C21170082B773393003F9068 /* WereWolfGameClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21170072B773393003F9068 /* WereWolfGameClientUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2116FF82B773393003F9068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2116FDA2B77338E003F9068 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2116FE12B77338E003F9068;
+			remoteInfo = WereWolfGameClient;
+		};
+		C21170022B773393003F9068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2116FDA2B77338E003F9068 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2116FE12B77338E003F9068;
+			remoteInfo = WereWolfGameClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2116FE22B77338E003F9068 /* WereWolfGameClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WereWolfGameClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2116FE52B77338E003F9068 /* WereWolfGameClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WereWolfGameClientApp.swift; sourceTree = "<group>"; };
+		C2116FE72B77338E003F9068 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C2116FE92B773393003F9068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2116FEC2B773393003F9068 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2116FEE2B773393003F9068 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C2116FF12B773393003F9068 /* WereWolfGameClient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WereWolfGameClient.xcdatamodel; sourceTree = "<group>"; };
+		C2116FF72B773393003F9068 /* WereWolfGameClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WereWolfGameClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2116FFB2B773393003F9068 /* WereWolfGameClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WereWolfGameClientTests.swift; sourceTree = "<group>"; };
+		C21170012B773393003F9068 /* WereWolfGameClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WereWolfGameClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21170052B773393003F9068 /* WereWolfGameClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WereWolfGameClientUITests.swift; sourceTree = "<group>"; };
+		C21170072B773393003F9068 /* WereWolfGameClientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WereWolfGameClientUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2116FDF2B77338E003F9068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2116FF42B773393003F9068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2116FFE2B773393003F9068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2116FD92B77338E003F9068 = {
+			isa = PBXGroup;
+			children = (
+				C2116FE42B77338E003F9068 /* WereWolfGameClient */,
+				C2116FFA2B773393003F9068 /* WereWolfGameClientTests */,
+				C21170042B773393003F9068 /* WereWolfGameClientUITests */,
+				C2116FE32B77338E003F9068 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2116FE32B77338E003F9068 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2116FE22B77338E003F9068 /* WereWolfGameClient.app */,
+				C2116FF72B773393003F9068 /* WereWolfGameClientTests.xctest */,
+				C21170012B773393003F9068 /* WereWolfGameClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2116FE42B77338E003F9068 /* WereWolfGameClient */ = {
+			isa = PBXGroup;
+			children = (
+				C2116FE52B77338E003F9068 /* WereWolfGameClientApp.swift */,
+				C2116FE72B77338E003F9068 /* ContentView.swift */,
+				C2116FE92B773393003F9068 /* Assets.xcassets */,
+				C2116FEE2B773393003F9068 /* Persistence.swift */,
+				C2116FF02B773393003F9068 /* WereWolfGameClient.xcdatamodeld */,
+				C2116FEB2B773393003F9068 /* Preview Content */,
+			);
+			path = WereWolfGameClient;
+			sourceTree = "<group>";
+		};
+		C2116FEB2B773393003F9068 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C2116FEC2B773393003F9068 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2116FFA2B773393003F9068 /* WereWolfGameClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2116FFB2B773393003F9068 /* WereWolfGameClientTests.swift */,
+			);
+			path = WereWolfGameClientTests;
+			sourceTree = "<group>";
+		};
+		C21170042B773393003F9068 /* WereWolfGameClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C21170052B773393003F9068 /* WereWolfGameClientUITests.swift */,
+				C21170072B773393003F9068 /* WereWolfGameClientUITestsLaunchTests.swift */,
+			);
+			path = WereWolfGameClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2116FE12B77338E003F9068 /* WereWolfGameClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C211700B2B773393003F9068 /* Build configuration list for PBXNativeTarget "WereWolfGameClient" */;
+			buildPhases = (
+				C2116FDE2B77338E003F9068 /* Sources */,
+				C2116FDF2B77338E003F9068 /* Frameworks */,
+				C2116FE02B77338E003F9068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WereWolfGameClient;
+			productName = WereWolfGameClient;
+			productReference = C2116FE22B77338E003F9068 /* WereWolfGameClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2116FF62B773393003F9068 /* WereWolfGameClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C211700E2B773393003F9068 /* Build configuration list for PBXNativeTarget "WereWolfGameClientTests" */;
+			buildPhases = (
+				C2116FF32B773393003F9068 /* Sources */,
+				C2116FF42B773393003F9068 /* Frameworks */,
+				C2116FF52B773393003F9068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2116FF92B773393003F9068 /* PBXTargetDependency */,
+			);
+			name = WereWolfGameClientTests;
+			productName = WereWolfGameClientTests;
+			productReference = C2116FF72B773393003F9068 /* WereWolfGameClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C21170002B773393003F9068 /* WereWolfGameClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21170112B773393003F9068 /* Build configuration list for PBXNativeTarget "WereWolfGameClientUITests" */;
+			buildPhases = (
+				C2116FFD2B773393003F9068 /* Sources */,
+				C2116FFE2B773393003F9068 /* Frameworks */,
+				C2116FFF2B773393003F9068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C21170032B773393003F9068 /* PBXTargetDependency */,
+			);
+			name = WereWolfGameClientUITests;
+			productName = WereWolfGameClientUITests;
+			productReference = C21170012B773393003F9068 /* WereWolfGameClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2116FDA2B77338E003F9068 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C2116FE12B77338E003F9068 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C2116FF62B773393003F9068 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C2116FE12B77338E003F9068;
+					};
+					C21170002B773393003F9068 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C2116FE12B77338E003F9068;
+					};
+				};
+			};
+			buildConfigurationList = C2116FDD2B77338E003F9068 /* Build configuration list for PBXProject "WereWolfGameClient" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2116FD92B77338E003F9068;
+			productRefGroup = C2116FE32B77338E003F9068 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2116FE12B77338E003F9068 /* WereWolfGameClient */,
+				C2116FF62B773393003F9068 /* WereWolfGameClientTests */,
+				C21170002B773393003F9068 /* WereWolfGameClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2116FE02B77338E003F9068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2116FED2B773393003F9068 /* Preview Assets.xcassets in Resources */,
+				C2116FEA2B773393003F9068 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2116FF52B773393003F9068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2116FFF2B773393003F9068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2116FDE2B77338E003F9068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2116FEF2B773393003F9068 /* Persistence.swift in Sources */,
+				C2116FE82B77338E003F9068 /* ContentView.swift in Sources */,
+				C2116FE62B77338E003F9068 /* WereWolfGameClientApp.swift in Sources */,
+				C2116FF22B773393003F9068 /* WereWolfGameClient.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2116FF32B773393003F9068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2116FFC2B773393003F9068 /* WereWolfGameClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2116FFD2B773393003F9068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21170082B773393003F9068 /* WereWolfGameClientUITestsLaunchTests.swift in Sources */,
+				C21170062B773393003F9068 /* WereWolfGameClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2116FF92B773393003F9068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2116FE12B77338E003F9068 /* WereWolfGameClient */;
+			targetProxy = C2116FF82B773393003F9068 /* PBXContainerItemProxy */;
+		};
+		C21170032B773393003F9068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2116FE12B77338E003F9068 /* WereWolfGameClient */;
+			targetProxy = C21170022B773393003F9068 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C21170092B773393003F9068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C211700A2B773393003F9068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C211700C2B773393003F9068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WereWolfGameClient/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.nishitin.WereWolfGameClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C211700D2B773393003F9068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WereWolfGameClient/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.nishitin.WereWolfGameClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C211700F2B773393003F9068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.nishitin.WereWolfGameClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WereWolfGameClient.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WereWolfGameClient";
+			};
+			name = Debug;
+		};
+		C21170102B773393003F9068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.nishitin.WereWolfGameClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WereWolfGameClient.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WereWolfGameClient";
+			};
+			name = Release;
+		};
+		C21170122B773393003F9068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.nishitin.WereWolfGameClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WereWolfGameClient;
+			};
+			name = Debug;
+		};
+		C21170132B773393003F9068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.nishitin.WereWolfGameClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WereWolfGameClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2116FDD2B77338E003F9068 /* Build configuration list for PBXProject "WereWolfGameClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21170092B773393003F9068 /* Debug */,
+				C211700A2B773393003F9068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C211700B2B773393003F9068 /* Build configuration list for PBXNativeTarget "WereWolfGameClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C211700C2B773393003F9068 /* Debug */,
+				C211700D2B773393003F9068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C211700E2B773393003F9068 /* Build configuration list for PBXNativeTarget "WereWolfGameClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C211700F2B773393003F9068 /* Debug */,
+				C21170102B773393003F9068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21170112B773393003F9068 /* Build configuration list for PBXNativeTarget "WereWolfGameClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21170122B773393003F9068 /* Debug */,
+				C21170132B773393003F9068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C2116FF02B773393003F9068 /* WereWolfGameClient.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C2116FF12B773393003F9068 /* WereWolfGameClient.xcdatamodel */,
+			);
+			currentVersion = C2116FF12B773393003F9068 /* WereWolfGameClient.xcdatamodel */;
+			path = WereWolfGameClient.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C2116FDA2B77338E003F9068 /* Project object */;
+}
