@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  WereWolfGameClient
 //
-//  Created by 西聖也 on 2024/02/10.
+//  Created by nishitin on 2024/02/10.
 //
 
 import SwiftUI
