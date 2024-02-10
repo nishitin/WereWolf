@@ -98,6 +98,10 @@
 		C2116FE42B77338E003F9068 /* WereWolfGameClient */ = {
 			isa = PBXGroup;
 			children = (
+				C21170172B77724F003F9068 /* Service */,
+				C21170162B777226003F9068 /* View */,
+				C21170152B777215003F9068 /* ViewModel */,
+				C21170142B777208003F9068 /* Model */,
 				C2116FE52B77338E003F9068 /* WereWolfGameClientApp.swift */,
 				C2116FE72B77338E003F9068 /* ContentView.swift */,
 				C2116FE92B773393003F9068 /* Assets.xcassets */,
@@ -131,6 +135,34 @@
 				C21170072B773393003F9068 /* WereWolfGameClientUITestsLaunchTests.swift */,
 			);
 			path = WereWolfGameClientUITests;
+			sourceTree = "<group>";
+		};
+		C21170142B777208003F9068 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C21170152B777215003F9068 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C21170162B777226003F9068 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C21170172B77724F003F9068 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
