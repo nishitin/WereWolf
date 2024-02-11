@@ -17,6 +17,8 @@
 		C21170062B773393003F9068 /* WereWolfGameClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21170052B773393003F9068 /* WereWolfGameClientUITests.swift */; };
 		C21170082B773393003F9068 /* WereWolfGameClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21170072B773393003F9068 /* WereWolfGameClientUITestsLaunchTests.swift */; };
 		C21170192B779D2F003F9068 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21170182B779D2F003F9068 /* PlayerModel.swift */; };
+		C28C1F8D2B78B71B00144518 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28C1F8C2B78B71B00144518 /* CustomButton.swift */; };
+		C28C1F8F2B78B75800144518 /* GameStartScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28C1F8E2B78B75800144518 /* GameStartScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		C21170052B773393003F9068 /* WereWolfGameClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WereWolfGameClientUITests.swift; sourceTree = "<group>"; };
 		C21170072B773393003F9068 /* WereWolfGameClientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WereWolfGameClientUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C21170182B779D2F003F9068 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		C28C1F8C2B78B71B00144518 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		C28C1F8E2B78B75800144518 /* GameStartScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStartScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,8 @@
 		C21170162B777226003F9068 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C28C1F8B2B78B6D200144518 /* Components */,
+				C28C1F8A2B78B6B500144518 /* GameStartScreen */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -166,6 +172,22 @@
 			children = (
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		C28C1F8A2B78B6B500144518 /* GameStartScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C28C1F8E2B78B75800144518 /* GameStartScreenView.swift */,
+			);
+			path = GameStartScreen;
+			sourceTree = "<group>";
+		};
+		C28C1F8B2B78B6D200144518 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C28C1F8C2B78B71B00144518 /* CustomButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,7 +322,9 @@
 			files = (
 				C21170192B779D2F003F9068 /* PlayerModel.swift in Sources */,
 				C2116FEF2B773393003F9068 /* Persistence.swift in Sources */,
+				C28C1F8D2B78B71B00144518 /* CustomButton.swift in Sources */,
 				C2116FE82B77338E003F9068 /* ContentView.swift in Sources */,
+				C28C1F8F2B78B75800144518 /* GameStartScreenView.swift in Sources */,
 				C2116FE62B77338E003F9068 /* WereWolfGameClientApp.swift in Sources */,
 				C2116FF22B773393003F9068 /* WereWolfGameClient.xcdatamodeld in Sources */,
 			);
