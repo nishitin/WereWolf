@@ -8,8 +8,13 @@
 import SwiftUI
 
 struct GameSetUpScreenView: View {
+    @State var textField: String = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack {
+            Text("GameSetUp")
+        }
     }
 }
 

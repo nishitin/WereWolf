@@ -2,17 +2,20 @@
 //  CustomInput.swift
 //  WereWolfGameClient
 //
-//  Created by 西聖也 on 2024/02/12.
+//  Created by nishitin on 2024/02/12.
 //
 
 import SwiftUI
 
-struct CustomInput: View {
+struct CustomTextField: View {
+    var placeholder: String
+    
+    @Binding var text: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TextField(placeholder, text: $text)
+            .padding()
+            .background(Color.gray.opacity(0.2))
+            .cornerRadius(5)
     }
-}
-
-#Preview {
-    CustomInput()
 }
