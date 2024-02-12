@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C2116FE62B77338E003F9068 /* WereWolfGameClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2116FE52B77338E003F9068 /* WereWolfGameClientApp.swift */; };
-		C2116FE82B77338E003F9068 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2116FE72B77338E003F9068 /* ContentView.swift */; };
 		C2116FEA2B773393003F9068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2116FE92B773393003F9068 /* Assets.xcassets */; };
 		C2116FED2B773393003F9068 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2116FEC2B773393003F9068 /* Preview Assets.xcassets */; };
 		C2116FEF2B773393003F9068 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2116FEE2B773393003F9068 /* Persistence.swift */; };
@@ -41,7 +40,6 @@
 /* Begin PBXFileReference section */
 		C2116FE22B77338E003F9068 /* WereWolfGameClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WereWolfGameClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2116FE52B77338E003F9068 /* WereWolfGameClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WereWolfGameClientApp.swift; sourceTree = "<group>"; };
-		C2116FE72B77338E003F9068 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C2116FE92B773393003F9068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2116FEC2B773393003F9068 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C2116FEE2B773393003F9068 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 				C21170152B777215003F9068 /* ViewModel */,
 				C21170142B777208003F9068 /* Model */,
 				C2116FE52B77338E003F9068 /* WereWolfGameClientApp.swift */,
-				C2116FE72B77338E003F9068 /* ContentView.swift */,
 				C2116FE92B773393003F9068 /* Assets.xcassets */,
 				C2116FEE2B773393003F9068 /* Persistence.swift */,
 				C2116FF02B773393003F9068 /* WereWolfGameClient.xcdatamodeld */,
@@ -323,7 +320,6 @@
 				C21170192B779D2F003F9068 /* PlayerModel.swift in Sources */,
 				C2116FEF2B773393003F9068 /* Persistence.swift in Sources */,
 				C28C1F8D2B78B71B00144518 /* CustomButton.swift in Sources */,
-				C2116FE82B77338E003F9068 /* ContentView.swift in Sources */,
 				C28C1F8F2B78B75800144518 /* GameStartScreenView.swift in Sources */,
 				C2116FE62B77338E003F9068 /* WereWolfGameClientApp.swift in Sources */,
 				C2116FF22B773393003F9068 /* WereWolfGameClient.xcdatamodeld in Sources */,
