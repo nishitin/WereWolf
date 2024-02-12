@@ -19,6 +19,7 @@
 		C28C1F8D2B78B71B00144518 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28C1F8C2B78B71B00144518 /* CustomButton.swift */; };
 		C28C1F8F2B78B75800144518 /* GameStartScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28C1F8E2B78B75800144518 /* GameStartScreenView.swift */; };
 		C28C1F922B79FBBC00144518 /* GameSetUpScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28C1F912B79FBBC00144518 /* GameSetUpScreenView.swift */; };
+		C28C1F962B7A046500144518 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28C1F952B7A046500144518 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		C28C1F8C2B78B71B00144518 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		C28C1F8E2B78B75800144518 /* GameStartScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStartScreenView.swift; sourceTree = "<group>"; };
 		C28C1F912B79FBBC00144518 /* GameSetUpScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSetUpScreenView.swift; sourceTree = "<group>"; };
+		C28C1F952B7A046500144518 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,7 +187,8 @@
 		C28C1F8B2B78B6D200144518 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				C28C1F8C2B78B71B00144518 /* CustomButton.swift */,
+				C28C1F942B7A044A00144518 /* TextField */,
+				C28C1F932B7A043400144518 /* Button */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -196,6 +199,22 @@
 				C28C1F912B79FBBC00144518 /* GameSetUpScreenView.swift */,
 			);
 			path = GameSetUpScreen;
+			sourceTree = "<group>";
+		};
+		C28C1F932B7A043400144518 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				C28C1F8C2B78B71B00144518 /* CustomButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		C28C1F942B7A044A00144518 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				C28C1F952B7A046500144518 /* CustomTextField.swift */,
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,6 +354,7 @@
 				C2116FE62B77338E003F9068 /* WereWolfGameClientApp.swift in Sources */,
 				C28C1F922B79FBBC00144518 /* GameSetUpScreenView.swift in Sources */,
 				C2116FF22B773393003F9068 /* WereWolfGameClient.xcdatamodeld in Sources */,
+				C28C1F962B7A046500144518 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
