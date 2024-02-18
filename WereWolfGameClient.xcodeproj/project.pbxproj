@@ -162,6 +162,7 @@
 		C21170162B777226003F9068 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C21FC41D2B8092C000F6226E /* New Group */,
 				C28C1F902B79FB9500144518 /* GameSetUpScreen */,
 				C28C1F8B2B78B6D200144518 /* Components */,
 				C28C1F8A2B78B6B500144518 /* GameStartScreen */,
@@ -174,6 +175,13 @@
 			children = (
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		C21FC41D2B8092C000F6226E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		C28C1F8A2B78B6B500144518 /* GameStartScreen */ = {

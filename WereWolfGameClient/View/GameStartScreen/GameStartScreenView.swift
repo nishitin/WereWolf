@@ -9,9 +9,11 @@ import SwiftUI
 
 struct GameStartScreenView: View {
     var body: some View {
-        VStack {
-            CustomButton(buttonLabel: "プレイ開始") {
-                print("start")
+        NavigationStack {
+            VStack {
+                CustomButton(buttonLabel: "新規ゲームの開始") {
+                    print("start")
+                }
             }
         }
     }

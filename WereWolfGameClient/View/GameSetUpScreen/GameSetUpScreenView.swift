@@ -14,6 +14,12 @@ struct GameSetUpScreenView: View {
         
         VStack {
             Text("GameSetUp")
+            
+            HStack {
+                CustomButton(buttonLabel: "プレイヤーを追加") {
+                    print("追加")
+                }
+            }
         }
     }
 }
